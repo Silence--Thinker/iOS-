@@ -68,9 +68,9 @@ int main(int argc, const char * argv[]) {
     Person *p1;
     @autoreleasepool {
 //        p1 = autorelaese_demo_01();
-//        p1 = autorelaese_demo_01_01();
+        p1 = autorelaese_demo_01_01();
         
-        p1 = autorelaese_demo_02();
+//        p1 = autorelaese_demo_02();
         NSLog(@"in main @autoreleasepool %@", p1);
     }
     NSLog(@"out main @autoreleasepool  %@", p1);
